@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>MENTALOCHKA</title>
+<!--<link rel="stylesheet" href="CSS/normalize.css">-->
+<link href="CSS/Style.css" rel="stylesheet" type="text/css">
+	
+	<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="CSS/normalize.css" rel="stylesheet" type="text/css">
+
+	
+<!-- Подключаем jQuery, jmpress и наш плагин: -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<!-- jmpress plugin -->
+		<script src="js/jmpress.min.js"></script>
+		<!-- jmslideshow plugin : extends the jmpress plugin -->
+		<script src="js/jquery.jmslideshow.js"></script>
+		<script src="js/modernizr.custom.48780.js"></script>
+		<noscript>
+			<style>
+			.step {
+				width: 100%;
+				position: relative;
+			}
+			.step:not(.active) {
+				opacity: 1;
+				filter: alpha(opacity=99);
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+			}
+			.step:not(.active) a.jms-link{
+				opacity: 1;
+				margin-top: 40px;
+			}
+			</style>
+		</noscript>
+</head>	
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__left">
+					<img src="Images/2023-11-26_12-16-09.png" alt="" class="circle">
+					<div class="header__logo"><a class="mentalochka__link" href="INDEX.html">.менталочка</a></div>            
+				</div>
+				<nav class="nav">
+					<a href="ArticlePage.html" class="button__nav">статьи</a>
+					<a href="ArticlePageText.html" class="button__nav">тесты</a>
+					<a href="#" class="button__nav"><i class="fa fa-user"></i></a> 
+				</nav>
+				
+			</div>
+		</div>
+	</header>
+
+	<div class="first__container"></div>
+		<div class="container">
+			<div class="description">
+				<div class="description__inner">
+					<h1 class="description__title">Онлайн тесты: психологические, образовательные, IQ</h1>
+				</div>
+			</div>
+			<section id="jms-slideshow" class="jms-slideshow">
+				
+				<div class="step" data-color="color-1">
+					<div class="jms-content">
+						<div>
+							<h2>Цветовой тест Люшера</h2>
+							<div class="time">
+								<i class="fa fa-clock-o fa-2x"></i>
+								<p>Время прохождения: 5 минут</p>
+							</div>
+							<div class="type">
+								<i class="fa fa-smile-o fa-2x"></i>
+								<p>Личность и характер</p>
+							</div>
+						</div>
+						<a class="jms-link" href="#">Пройти тест</a>
+					</div>
+					<img class="test__image" src="images/1.png" alt="">
+				</div>
+				
+				<div class="step" data-color="color-2" data-y="500" data-scale="0.4" data-rotate-x="30">
+					<div class="jms-content">
+						<div>
+							<h2>Подходит ли вам профессия дизайнера?</h2>
+							<div class="time">
+								<i class="fa fa-clock-o fa-2x"></i>
+								<p>Время прохождения: 10 минут</p>
+							</div>
+							<div class="type">
+								<i class="fa fa-smile-o fa-2x"></i>
+								<p>Профориентация</p>
+							</div>
+						</div>
+						<a class="jms-link" href="#">Пройти тест</a>
+					</div>
+					<img class="test__image" src="images/2.png" alt="">
+				</div>
+				
+				<div class="step" data-color="color-3" data-x="2000" data-z="3000" data-rotate="170">
+					<div class="jms-content">
+						<div>
+							<h2>Тест на симптомы и признаки депрессии</h2>
+							<div class="time">
+								<i class="fa fa-clock-o fa-2x"></i>
+								<p>Время прохождения: 15 минут</p>
+							</div>
+							<div class="type">
+								<i class="fa fa-smile-o fa-2x"></i>
+								<p>Депрессия</p>
+							</div>
+						</div>
+						<a class="jms-link" href="#">Пройти тест</a>
+					</div>
+					<img class="test__image" src="images/3.png" alt="">
+				</div>
+				
+				<div class="step" data-color="color-4" data-x="3000">
+					<div class="jms-content">
+						<div>
+							<h2>Насколько вы дружелюбны?</h2>
+							<div class="time">
+								<i class="fa fa-clock-o fa-2x"></i>
+								<p>Время прохождения: 5 минут</p>
+							</div>
+							<div class="type">
+								<i class="fa fa-smile-o fa-2x"></i>
+								<p>Личность и характер</p>
+							</div>
+						</div>
+						<a class="jms-link" href="#">Пройти тест</a>
+					</div>
+					<img class="test__image" src="images/4.png" alt="">
+				</div>
+				
+				<div class="step" data-color="color-5" data-x="4500" data-z="1000" data-rotate-y="45">
+					<div class="jms-content">
+						<div>
+							<h2>Какой вы руководитель?</h2>
+							<div class="time">
+								<i class="fa fa-clock-o fa-2x"></i>
+								<p>Время прохождения: 5 минут</p>
+							</div>
+							<div class="type">
+								<i class="fa fa-smile-o fa-2x"></i>
+								<p>Личность и характер</p>
+							</div>
+						</div>
+						<a class="jms-link" href="#">Пройти тест</a>
+					</div>
+					<img class="test__image" src="images/5.png" alt="">
+				</div>
+				
+			</section>
+		</div>
+	
+	<script >
+			$(function() {
+			
+				$( '#jms-slideshow' ).jmslideshow();
+				
+			});
+		</script>
+	
+<!-- pcvector.net -->
+<script src="http://pcvector.net/templates/pcv/js/pcvector.js"></script>
+<!-- /pcvector.net -->
+	
+	<div class="container">
+		<div class="description">
+			<div class="description__inner">
+				<h2 class="description__subtitle">Ищите статьи на любую тему</h2>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="search__block">
+			<div class="search">
+				<div class="search__rectangle">
+					<p class="search__text">Что вас интересует?</p>
+					<i class="fa fa-search"></i>
+				</div>
+				<a href="#" class="search__button">Поиск</a>
+			</div>
+		</div>	
+	</div>
+	
+<div class="second__container"></div>
+	
+	<div class="container">
+		<div class="info">
+		  <div class="info__inner">
+				<div class="info__pictures">
+					<div class="vertical__pic">
+						<img class="info__image1" src="images/6.png" alt="">
+						<img class="info__image2" src="images/7.png" alt="">
+					</div>
+					<div class="horizontal__pic">
+						<img class="info__image3" src="Images/8.jpeg" alt="">
+					</div>
+				</div>
+				<div class="info__text">
+					<h1>Узнавайте больше о себе и людях благодаря нашему сервису</h1>
+					<p>Психологические тесты – надежный и простой способ контроля своего психического здоровья. Однако опубликованные на сайте методики не претендуют на замещение врачей. Любой тест – это лишь способ самоанализа, чтобы лучше распознать 
+и осознать свое самочувствие. Медицинский диагноз может поставить только специалист – психотерапевт, психиатр 
+на основе комплексного клинического обследования.</p>
+					<p>На нашем ресурсе собраны все популярные психологические тесты, которые расскажут о ваших способностях, недостатках и особенностях личности. Мы постоянно проверяем и улучшаем качество тестов, чтобы они соответствовали современным требованиям к психологическим методикам 
+и образовательным тестам. </p>
+					<p>Вы можете протестировать уровень IQ вашего ребенка 
+с помощью иллюстрированного теста, или провести комплексный анализ рисунков всех домочадцев и узнать 
+об их потаенных страхах и проблемах. А с помощью образовательных тестов вы сможете определить и улучшить свой уровень знаний в различных сферах. Процесс тестирования на мобильном или компьютере так же удобен, 
+как через приложение.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="description">
+			<div class="description__inner">
+				<h2 class="description__subtitle2">Рекомендованные статьи</h2>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="advice">
+			<div class="advice__inner">
+				<div class="advice__rectangle1">
+					<div class="star">
+						<i class="fa fa-star fa-2x"></i>
+					</div>
+					<div class="dark__rectangle">
+						<div class="advice__text">
+							<p>Как распознать токсичные отношения?</p>
+						</div>
+					</div>
+				</div>
+				<div class="advice__rectangle2">
+					<div class="star">
+						<i class="fa fa-star fa-2x"></i>
+					</div>
+					<div class="dark__rectangle">
+						<div class="advice__text">
+							<p>10 Ассертивных прав человека</p>
+						</div>
+					</div>
+				</div>
+				<div class="advice__rectangle3">
+					<div class="star">
+						<i class="fa fa-star fa-2x"></i>
+					</div>
+					<div class="dark__rectangle">
+						<div class="advice__text">
+							<p>Топ-10 редких психических расстройств</p>
+						</div>
+					</div>
+				</div>
+				<div class="advice__rectangle4">
+					<div class="star">
+						<i class="fa fa-star fa-2x"></i>
+					</div>
+					<div class="dark__rectangle">
+						<div class="advice__text">
+							<p>5 Контрактов доверия для пар</p>
+						</div>
+					</div>
+				</div>
+				<div class="advice__rectangle5">
+					<div class="star">
+						<i class="fa fa-star fa-2x"></i>
+					</div>
+					<div class="dark__rectangle">
+						<div class="advice__text">
+							<p>Паранойя</p>
+						</div>
+					</div>
+				</div>
+				<div class="advice__rectangle6">
+					<div class="star">
+						<i class="fa fa-star fa-2x"></i>
+					</div>
+					<div class="dark__rectangle">
+						<div class="advice__text">
+							<p>Арт-терапия во время самоизоляции</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="podval">
+			<div class="podval__inner">
+				<a href="#" class="button__podval"><i class="fa fa-at fa-2x"></i></a>
+				<a href="#" class="button__podval"><i class="fa fa-telegram fa-2x"></i></a>
+				<a href="#" class="button__podval"><i class="fa fa-youtube-play fa-2x"></i></a>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>
+
+	
